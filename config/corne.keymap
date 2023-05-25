@@ -67,10 +67,10 @@
 // |         | V LFT |     | V RGT |      | BOOT |   |     |     |     |     |     |     |
 //                            |    |      |      |   | DEL |     | GUI |
             bindings = <
-    &kp LA(TAB) &kp HOME &kp UP   &kp END   &kp PG_UP &none      &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-    &trans      &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &none      &kp LG(PG_UP)     &kp LG(LS(LEFT))   &kp LG(PG_DN)     &kp MINUS    &to 3      &to 2
-    &trans      &trans      &trans       &trans      &trans      &bt trans     &bootloader    &kp LS(LG(PG_UP)) &kp LG(LS(RIGHT))  &kp LS(LG(PG_DN)) &to 4        &to 1      &to 0
-                                    &trans    &trans    &trans   &kp DEL           &trans             &trans
+    &kp LA(TAB) &kp HOME &kp UP   &kp END   &kp PG_UP &none       &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4  &bt BT_CLR
+    &trans      &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &none       &kp LG(PG_UP)     &kp LG(LS(LEFT))  &kp LG(PG_DN)     &kp MINUS    &to 3         &to 2
+    &trans      &trans   &trans   &trans    &trans    &bootloader &kp LS(LG(PG_UP)) &kp LG(LS(RIGHT)) &kp LS(LG(PG_DN)) &to 4        &to 1         &to 0
+                                 &trans    &trans    &trans       &kp DEL           &trans            &trans
             >;
         };
         num_layer {
